@@ -10,10 +10,27 @@ from flask import Flask, render_template, request, jsonify, redirect, url_for, s
 
 from questions import get_quiz_questions, grade_answers, BIS_QUESTIONS
 
-app = Flask(__name__)
-app.secret_key = "bis_quiz_secret_key_2026_super_secure"
+from jinja2 import ChoiceLoader, FileSystemLoader
 
 DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+TEMPLATES_DIR = os.path.join(DATA_DIR, "templates")
+STATIC_DIR = os.path.join(DATA_DIR, "static")
+
+app = Flask(
+    __name__,
+    template_folder=TEMPLATES_DIR,
+    static_folder=STATIC_DIR
+)
+app.secret_key = "bis_quiz_secret_key_2026_super_secure"
+
+# Resilient template loading: looks in templates/, root folder, and current working dir
+app.jinja_loader = ChoiceLoader([
+    FileSystemLoader(TEMPLATES_DIR),
+    FileSystemLoader(DATA_DIR),
+    FileSystemLoader("templates"),
+    FileSystemLoader(".")
+])
+
 PARTICIPANTS_FILE = os.path.join(DATA_DIR, "participants.json")
 CSV_EXPORT_FILE = os.path.join(DATA_DIR, "participants_scores.csv")
 HOST_SUMMARY_FILE = os.path.join(DATA_DIR, "host_summary_report.txt")
@@ -138,14 +155,10 @@ def ensure_tunnel():
         bin_path = os.path.join(DATA_DIR, "cloudflared.exe")
         if not os.path.exists(bin_path):
             return
-        # Test if public url is already valid
-        curr = get_public_url()
-        if curr:
+        # Clear stale URL file
+        if os.path.exists(PUBLIC_URL_FILE):
             try:
-                import requests
-                r = requests.get(curr, timeout=3)
-                if r.status_code == 200:
-                    return # Already working!
+                os.remove(PUBLIC_URL_FILE)
             except Exception:
                 pass
 
@@ -208,17 +221,35 @@ def get_qr_base64(url):
     except Exception as e:
         return ""
 
-# Initialize files
-participants_db = load_participants()
-export_csv(participants_db)
-generate_host_summary(participants_db)
+# Initialize files safely
+try:
+    participants_db = load_participants()
+    export_csv(participants_db)
+    generate_host_summary(participants_db)
+except Exception as e:
+    print("Notice on file initialization:", e)
 
 # ----------------- ROUTES ----------------- #
 
 @app.route("/")
 def index():
     """Participant landing & registration page"""
-    return render_template("index.html")
+    try:
+        return render_template("index.html")
+    except Exception as e:
+        import traceback
+        err_msg = traceback.format_exc()
+        print("Template render error on /:", err_msg)
+        for p in [
+            os.path.join(TEMPLATES_DIR, "index.html"),
+            os.path.join(DATA_DIR, "index.html"),
+            "templates/index.html",
+            "index.html"
+        ]:
+            if os.path.exists(p):
+                with open(p, "r", encoding="utf-8") as f:
+                    return f.read()
+        return f"<h2>Quiz Loading Error</h2><pre>{err_msg}</pre>", 500
 
 @app.route("/api/register", methods=["POST"])
 def register():
@@ -516,12 +547,42 @@ def update_join_url():
     return jsonify({"success": True, "qr_data_url": qr_data, "url": custom_url})
 
 if __name__ == "__main__":
+    import time
+    import webbrowser
+
     ip = get_local_ip()
-    print("=" * 60)
-    print(" BUREAU OF INDIAN STANDARDS (BIS) QUIZ WEB APP")
-    print("=" * 60)
-    print(f" Participant Join URL : http://{ip}:5000/")
-    print(f" Host Dashboard URL   : http://{ip}:5000/host")
-    print(f" Localhost Access     : http://127.0.0.1:5000/")
-    print("=" * 60)
+    
+    # Give the tunnel up to 7.5 seconds to acquire the public link
+    print("[*] Connecting to cloud tunnel...")
+    for _ in range(25):
+        pub_url = get_public_url()
+        if pub_url:
+            break
+        time.sleep(0.3)
+    
+    pub_url = get_public_url()
+    student_link = pub_url if pub_url else f"http://{ip}:5000/"
+    host_link = f"{pub_url.rstrip('/')}/host" if pub_url else f"http://{ip}:5000/host"
+
+    print("\n" + "=" * 66)
+    print("      BUREAU OF INDIAN STANDARDS (BIS) QUIZ SYSTEM")
+    print("=" * 66)
+    print("  ONLINE & READY FOR PARTICIPANTS!")
+    print("")
+    print("  STUDENT QUIZ LINK (Share with candidates to take test):")
+    print(f"  --> {student_link}")
+    print("")
+    print("  HOST DASHBOARD LINK (For you and Co-Hosts):")
+    print(f"  --> {host_link}")
+    print("")
+    print("  LOCAL ACCESS (On this PC):")
+    print(f"  --> http://localhost:5000/host")
+    print("=" * 66 + "\n")
+
+    # Automatically open host dashboard in default browser
+    try:
+        webbrowser.open("http://localhost:5000/host")
+    except Exception:
+        pass
+
     app.run(host="0.0.0.0", port=5000, debug=False)
