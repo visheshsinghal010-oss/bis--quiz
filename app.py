@@ -231,15 +231,76 @@ except Exception as e:
 
 # ----------------- ROUTES ----------------- #
 
+def get_base_url():
+    """Detects public base URL: works on Render, Cloudflare, local WiFi, or localhost"""
+    # 1. Reverse proxy / cloud host (Render, Railway, Hugging Face, custom domain)
+    proto = request.headers.get("X-Forwarded-Proto", request.scheme)
+    host = request.headers.get("X-Forwarded-Host", request.headers.get("Host", request.host))
+    if host and not host.startswith("127.0.0.1") and not host.startswith("localhost"):
+        return f"{proto}://{host}".rstrip('/')
+
+    # 2. Universal Cloudflare tunnel if running locally
+    pub = get_public_url()
+    if pub:
+        return pub.rstrip('/')
+
+    # 3. Fallback to local machine IP for same-network testing
+    port = os.environ.get("PORT", 5000)
+    return f"http://{get_local_ip()}:{port}"
+
 @app.route("/")
-def index():
-    """Participant landing & registration page"""
+@app.route("/host")
+def host_dashboard():
+    """Host / Administrator Dashboard with QR Code, live controls & export options"""
+    base_url = get_base_url()
+    local_ip = get_local_ip()
+    port = os.environ.get("PORT", 5000)
+
+    # Candidate Quiz Join URL (students scan this QR to register and take the exam)
+    host_join_url = f"{base_url}/candidate"
+    qr_data_url = get_qr_base64(host_join_url)
+
+    # Public Host Dashboard URL (for co-hosts / organizers)
+    public_host_url = f"{base_url}/"
+    host_qr_data_url = get_qr_base64(public_host_url)
+
+    try:
+        return render_template(
+            "host.html",
+            local_ip=local_ip,
+            port=port,
+            host_join_url=host_join_url,
+            public_host_url=public_host_url,
+            public_url=base_url,
+            qr_data_url=qr_data_url,
+            host_qr_data_url=host_qr_data_url
+        )
+    except Exception as e:
+        import traceback
+        err_msg = traceback.format_exc()
+        print("Template render error on / (host):", err_msg)
+        for p in [
+            os.path.join(TEMPLATES_DIR, "host.html"),
+            os.path.join(DATA_DIR, "host.html"),
+            "templates/host.html",
+            "host.html"
+        ]:
+            if os.path.exists(p):
+                with open(p, "r", encoding="utf-8") as f:
+                    return f.read()
+        return f"<h2>Host Dashboard Loading Error</h2><pre>{err_msg}</pre>", 500
+
+@app.route("/candidate")
+@app.route("/join")
+@app.route("/student")
+def candidate_portal():
+    """Participant landing & registration page (scanned via QR Code)"""
     try:
         return render_template("index.html")
     except Exception as e:
         import traceback
         err_msg = traceback.format_exc()
-        print("Template render error on /:", err_msg)
+        print("Template render error on /candidate:", err_msg)
         for p in [
             os.path.join(TEMPLATES_DIR, "index.html"),
             os.path.join(DATA_DIR, "index.html"),
@@ -298,7 +359,7 @@ def register():
     return jsonify({
         "success": True,
         "participant_id": participant_id,
-        "redirect_url": url_for("quiz_page")
+        "redirect_url": url_for("quiz_page", id=participant_id)
     })
 
 @app.route("/quiz")
@@ -306,17 +367,19 @@ def quiz_page():
     """The 20-minute 30-question interactive quiz exam page"""
     participant_id = session.get("participant_id") or request.args.get("id")
     if not participant_id:
-        return redirect(url_for("index"))
+        return redirect(url_for("candidate_portal"))
 
     participants = load_participants()
     participant = participants.get(participant_id)
     if not participant:
-        return redirect(url_for("index"))
+        return redirect(url_for("candidate_portal"))
 
     if participant.get("status") == "Completed":
         return redirect(url_for("leaderboard_page", id=participant_id))
 
-    return render_template("quiz.html", participant=participant)
+    # Pass questions directly as JSON to guarantee instant rendering even if API is slow
+    questions_json = json.dumps(participant.get("sanitized_questions", []))
+    return render_template("quiz.html", participant=participant, questions_json=questions_json)
 
 @app.route("/api/quiz-data/<participant_id>")
 def get_quiz_data(participant_id):
@@ -438,34 +501,7 @@ def api_leaderboard():
         "leaderboard": leaderboard
     })
 
-@app.route("/host")
-def host_dashboard():
-    """Host / Administrator Dashboard with QR Code, live controls & export options"""
-    local_ip = get_local_ip()
-    port = 5000
-    public_url = get_public_url()
-    
-    # Candidate Quiz Join URL
-    host_join_url = public_url if public_url else f"http://{local_ip}:{port}/"
-    qr_data_url = get_qr_base64(host_join_url)
 
-    # Public Host Dashboard URL (for co-hosts / organizers)
-    if public_url:
-        public_host_url = f"{public_url.rstrip('/')}/host"
-    else:
-        public_host_url = f"http://{local_ip}:{port}/host"
-    host_qr_data_url = get_qr_base64(public_host_url)
-
-    return render_template(
-        "host.html",
-        local_ip=local_ip,
-        port=port,
-        host_join_url=host_join_url,
-        public_host_url=public_host_url,
-        public_url=public_url,
-        qr_data_url=qr_data_url,
-        host_qr_data_url=host_qr_data_url
-    )
 
 @app.route("/api/host-data")
 def api_host_data():
