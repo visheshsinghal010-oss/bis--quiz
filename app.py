@@ -35,6 +35,12 @@ PARTICIPANTS_FILE = os.path.join(DATA_DIR, "participants.json")
 CSV_EXPORT_FILE = os.path.join(DATA_DIR, "participants_scores.csv")
 HOST_SUMMARY_FILE = os.path.join(DATA_DIR, "host_summary_report.txt")
 
+# Global session configuration for Live Stage PIN & Lock
+SESSION_CONFIG = {
+    "locked": False,
+    "pin": "842190"
+}
+
 # In-memory storage with file backup
 def load_participants():
     if os.path.exists(PARTICIPANTS_FILE):
@@ -273,7 +279,9 @@ def host_dashboard():
             public_host_url=public_host_url,
             public_url=base_url,
             qr_data_url=qr_data_url,
-            host_qr_data_url=host_qr_data_url
+            host_qr_data_url=host_qr_data_url,
+            quiz_pin=SESSION_CONFIG.get("pin", "842190"),
+            is_locked=SESSION_CONFIG.get("locked", False)
         )
     except Exception as e:
         import traceback
@@ -319,6 +327,9 @@ def register():
     name = data.get("name", "").strip()
     phone = data.get("phone", "").strip()
     college_id = data.get("college_id", "").strip()
+
+    if SESSION_CONFIG.get("locked", False):
+        return jsonify({"success": False, "message": "Quiz registration has been locked by the host. Please speak to the organizer."}), 403
 
     if not name or not phone or not college_id:
         return jsonify({"success": False, "message": "All fields (Name, Phone Number, College ID) are required."}), 400
@@ -514,8 +525,19 @@ def api_host_data():
     avg_score = (sum(p.get("total_points", 0) for p in completed) / len(completed)) if completed else 0
     top_score = completed[0].get("total_points", 0) if completed else 0
 
+    # Score distribution histogram
+    score_distribution = {
+        "0-1000": len([p for p in completed if p.get("total_points", 0) <= 1000]),
+        "1001-2000": len([p for p in completed if 1000 < p.get("total_points", 0) <= 2000]),
+        "2001-3000": len([p for p in completed if 2000 < p.get("total_points", 0) <= 3000]),
+        "3001-4000": len([p for p in completed if 3000 < p.get("total_points", 0) <= 4000]),
+        "4001+": len([p for p in completed if p.get("total_points", 0) > 4000]),
+    }
+
     return jsonify({
         "success": True,
+        "is_locked": SESSION_CONFIG.get("locked", False),
+        "quiz_pin": SESSION_CONFIG.get("pin", "842190"),
         "stats": {
             "total_registered": len(participants),
             "total_completed": len(completed),
@@ -523,6 +545,7 @@ def api_host_data():
             "avg_score": round(avg_score, 1),
             "top_score": top_score
         },
+        "score_distribution": score_distribution,
         "participants": [
             {
                 "rank": idx + 1,
@@ -540,6 +563,12 @@ def api_host_data():
             for idx, p in enumerate(completed)
         ]
     })
+
+@app.route("/api/toggle-lock", methods=["POST"])
+def toggle_lock():
+    """Allows host to lock or unlock candidate registrations"""
+    SESSION_CONFIG["locked"] = not SESSION_CONFIG.get("locked", False)
+    return jsonify({"success": True, "locked": SESSION_CONFIG["locked"]})
 
 @app.route("/api/export-csv")
 def download_csv():

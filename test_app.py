@@ -109,12 +109,28 @@ def run_tests():
     assert lb_data["leaderboard"][0]["name"] == "Aarav Sharma"
     print("[OK] Leaderboard API verified with rank 1 participant!")
 
-    # Check Host Data API
+    # Check Host Data API with histogram & PIN
     res_host = client.get("/api/host-data")
     assert res_host.status_code == 200
     host_data = json.loads(res_host.data)
     assert host_data["stats"]["total_completed"] >= 1
-    print("[OK] Host Data API verified!")
+    assert "score_distribution" in host_data
+    assert "quiz_pin" in host_data
+    print("[OK] Host Data API with Histogram & Game PIN verified!")
+
+    # Check Lock Registration API
+    res_lock = client.post("/api/toggle-lock")
+    assert res_lock.status_code == 200
+    lock_data = json.loads(res_lock.data)
+    assert lock_data["locked"] is True
+
+    # Check that register is rejected when locked
+    res_reg_locked = client.post("/api/register", json={"name": "Test", "phone": "9999999999", "college_id": "TEST"})
+    assert res_reg_locked.status_code == 403
+    print("[OK] Host Lock Registration successfully prevents unauthorized registrations!")
+
+    # Unlock for normal operations
+    client.post("/api/toggle-lock")
 
     # Check CSV export endpoint
     res_csv = client.get("/api/export-csv")

@@ -1,135 +1,58 @@
 {
-  "d4f388ec-6e5f-412f-98f0-286cb214c5c6": {
-    "id": "d4f388ec-6e5f-412f-98f0-286cb214c5c6",
-    "name": "Aarav Sharma",
-    "phone": "9876543210",
-    "college_id": "COLLEGE-2026-001",
-    "registered_at": "2026-10-18T23:16:01.820570",
-    "registered_at_formatted": "11:16:01 PM",
+  "6b5d6211-7e56-44ac-ac46-9efd2ddbea09": {
+    "id": "6b5d6211-7e56-44ac-ac46-9efd2ddbea09",
+    "name": "Vishesh",
+    "phone": "8630423935",
+    "college_id": "2939ew9hhdj",
+    "registered_at": "2026-10-18T23:39:16.719645",
+    "registered_at_formatted": "11:39:16 PM",
     "status": "Completed",
     "question_ids": [
-      8,
-      31,
-      28,
-      2,
-      20,
-      3,
-      35,
-      4,
-      13,
-      15,
-      27,
-      26,
-      5,
-      10,
-      21,
-      22,
-      12,
-      32,
-      9,
-      29,
-      33,
-      34,
-      19,
       17,
-      16,
-      14,
-      11,
-      6,
+      13,
+      5,
+      24,
+      15,
+      8,
+      25,
+      34,
+      2,
+      33,
+      10,
+      29,
       30,
-      23
+      18,
+      23,
+      35,
+      6,
+      16,
+      28,
+      14,
+      12,
+      27,
+      19,
+      7,
+      1,
+      11,
+      20,
+      32,
+      4,
+      21
     ],
     "sanitized_questions": [
       {
         "question_index": 1,
-        "id": 8,
-        "question": "What does 'HUID' stand for in the context of mandatory gold jewellery hallmarking in India?",
+        "id": 17,
+        "question": "What is the CRS scheme administered by BIS, primarily applied to laptops, mobile phones, and IT equipment?",
         "options": [
-          "Hallmark Unique Identification",
-          "Heavy Unit Inspection Data",
-          "Hallmarking Universal Index Number",
-          "Hybrid Uniform Identity Design"
+          "Compulsory Registration Scheme",
+          "Central Regulatory Standard",
+          "Consumer Reliability System",
+          "Certified Radio Standard"
         ]
       },
       {
         "question_index": 2,
-        "id": 31,
-        "question": "Which Indian Standard specifies the requirements for High Strength Deformed (TMT) steel bars used in concrete reinforcement?",
-        "options": [
-          "IS 1786",
-          "IS 2062",
-          "IS 800",
-          "IS 1239"
-        ]
-      },
-      {
-        "question_index": 3,
-        "id": 28,
-        "question": "Under BIS regulations, which of the following items is mandatory to have the ISI mark before being sold in India?",
-        "options": [
-          "Packaged Drinking Water & Mineral Water",
-          "Cotton handkerchiefs",
-          "Wooden dining tables",
-          "Ballpoint pens"
-        ]
-      },
-      {
-        "question_index": 4,
-        "id": 2,
-        "question": "BIS was formerly known as which organization established in 1947?",
-        "options": [
-          "Indian Quality Council (IQC)",
-          "Indian Standards Institution (ISI)",
-          "National Quality Bureau (NQB)",
-          "Bharat Standardization Agency (BSA)"
-        ]
-      },
-      {
-        "question_index": 5,
-        "id": 20,
-        "question": "What is the Indian Standard code of practice for Plain and Reinforced Concrete (widely studied by Civil Engineers)?",
-        "options": [
-          "IS 800",
-          "IS 456",
-          "IS 1893",
-          "IS 875"
-        ]
-      },
-      {
-        "question_index": 6,
-        "id": 3,
-        "question": "Which Act established the Bureau of Indian Standards as the National Standards Body of India?",
-        "options": [
-          "The BIS Act, 1986",
-          "The Consumer Protection Act, 2019",
-          "The Bureau of Indian Standards Act, 2016",
-          "The Standards of Weights and Measures Act"
-        ]
-      },
-      {
-        "question_index": 7,
-        "id": 35,
-        "question": "What is the initial validity period of a standard Product Certification license granted by BIS?",
-        "options": [
-          "6 months",
-          "1 to 2 years",
-          "10 years",
-          "Lifetime validity"
-        ]
-      },
-      {
-        "question_index": 8,
-        "id": 4,
-        "question": "Where is the headquarters of the Bureau of Indian Standards located?",
-        "options": [
-          "Mumbai, Maharashtra",
-          "Manak Bhavan, New Delhi",
-          "Bengaluru, Karnataka",
-          "Kolkata, West Bengal"
-        ]
-      },
-      {
-        "question_index": 9,
         "id": 13,
         "question": "What is the single online portal of BIS that provides end-to-end digital services for standards formulation and certification?",
         "options": [
@@ -140,40 +63,7 @@
         ]
       },
       {
-        "question_index": 10,
-        "id": 15,
-        "question": "Which Ministry is the administrative ministry governing the Bureau of Indian Standards?",
-        "options": [
-          "Ministry of Commerce and Industry",
-          "Ministry of Science and Technology",
-          "Ministry of Consumer Affairs, Food and Public Distribution",
-          "Ministry of Heavy Industries"
-        ]
-      },
-      {
-        "question_index": 11,
-        "id": 27,
-        "question": "Which international body responsible for global electro-technical standards does BIS represent India in?",
-        "options": [
-          "International Electrotechnical Commission (IEC)",
-          "ITU",
-          "CENELEC",
-          "ANSI"
-        ]
-      },
-      {
-        "question_index": 12,
-        "id": 26,
-        "question": "BIS is a founder member of which premier international standardization organization?",
-        "options": [
-          "International Organization for Standardization (ISO)",
-          "World Trade Organization (WTO)",
-          "IEEE",
-          "ASTM International"
-        ]
-      },
-      {
-        "question_index": 13,
+        "question_index": 3,
         "id": 5,
         "question": "What is the Sanskrit motto inscribed in the BIS logo?",
         "options": [
@@ -184,84 +74,73 @@
         ]
       },
       {
-        "question_index": 14,
-        "id": 10,
-        "question": "Gold jewellery marked with '22K916' indicates what purity percentage of gold?",
+        "question_index": 4,
+        "id": 24,
+        "question": "What are the three mandatory marks found on hallmarked gold jewellery in India today?",
         "options": [
-          "99.9%",
-          "91.6%",
-          "75.0%",
-          "83.3%"
+          "Jeweller name, Weight in grams, Manufacturing date",
+          "BIS Logo, Purity/Fineness grade, 6-digit HUID",
+          "State code, Karat stamp, Price tag",
+          "Agmark logo, Hallmarking center number, Year letter"
         ]
       },
       {
-        "question_index": 15,
-        "id": 21,
-        "question": "What is the Indian Standard code for Earthquake Resistant Design of Structures?",
+        "question_index": 5,
+        "id": 15,
+        "question": "Which Ministry is the administrative ministry governing the Bureau of Indian Standards?",
         "options": [
-          "IS 1893",
-          "IS 800",
-          "IS 13920",
-          "IS 4326"
+          "Ministry of Commerce and Industry",
+          "Ministry of Science and Technology",
+          "Ministry of Consumer Affairs, Food and Public Distribution",
+          "Ministry of Heavy Industries"
         ]
       },
       {
-        "question_index": 16,
-        "id": 22,
-        "question": "Which publication by BIS serves as the comprehensive model building code adopted by local bodies across India?",
+        "question_index": 6,
+        "id": 8,
+        "question": "What does 'HUID' stand for in the context of mandatory gold jewellery hallmarking in India?",
         "options": [
-          "National Electrical Code (NEC)",
-          "National Building Code of India (NBC)",
-          "Indian Highway Code (IHC)",
-          "Urban Infrastructure Code (UIC)"
+          "Hallmark Unique Identification",
+          "Heavy Unit Inspection Data",
+          "Hallmarking Universal Index Number",
+          "Hybrid Uniform Identity Design"
         ]
       },
       {
-        "question_index": 17,
-        "id": 12,
-        "question": "On which date is 'World Standards Day' celebrated across the globe each year?",
+        "question_index": 7,
+        "id": 25,
+        "question": "How many Regional Offices does the Bureau of Indian Standards have across India?",
         "options": [
-          "15 August",
-          "5 June",
-          "14 October",
-          "28 February"
+          "3",
+          "5",
+          "10",
+          "15"
         ]
       },
       {
-        "question_index": 18,
-        "id": 32,
-        "question": "What does the National Institute of Training for Standardization (NITS) established by BIS do?",
+        "question_index": 8,
+        "id": 34,
+        "question": "Which laboratory is the central and apex testing laboratory operated directly by BIS?",
         "options": [
-          "Trains BIS officers, industry personnel, and international fellows on standards & quality",
-          "Conducts university degree engineering programs",
-          "Manufactures testing instruments",
-          "Issues passports and visas"
+          "Central Laboratory, Sahibabad (Ghaziabad)",
+          "National Physical Laboratory, Delhi",
+          "Bhabha Atomic Research Centre, Trombay",
+          "Central Drug Research Institute, Lucknow"
         ]
       },
       {
-        "question_index": 19,
-        "id": 9,
-        "question": "How many alphanumeric characters are there in an authentic HUID code stamped on gold jewellery?",
+        "question_index": 9,
+        "id": 2,
+        "question": "BIS was formerly known as which organization established in 1947?",
         "options": [
-          "4 characters",
-          "6 characters",
-          "8 characters",
-          "10 characters"
+          "Indian Quality Council (IQC)",
+          "Indian Standards Institution (ISI)",
+          "National Quality Bureau (NQB)",
+          "Bharat Standardization Agency (BSA)"
         ]
       },
       {
-        "question_index": 20,
-        "id": 29,
-        "question": "What does a 'QCO' issued by the Government of India in conjunction with BIS stand for?",
-        "options": [
-          "Quality Control Order",
-          "Quarterly Compliance Objective",
-          "Qualified Consumer Organization",
-          "Quantitative Certificate of Origin"
-        ]
-      },
-      {
-        "question_index": 21,
+        "question_index": 10,
         "id": 33,
         "question": "What penalty can be imposed under the BIS Act 2016 for unauthorized use of the standard ISI mark?",
         "options": [
@@ -272,14 +151,135 @@
         ]
       },
       {
-        "question_index": 22,
-        "id": 34,
-        "question": "Which laboratory is the central and apex testing laboratory operated directly by BIS?",
+        "question_index": 11,
+        "id": 10,
+        "question": "Gold jewellery marked with '22K916' indicates what purity percentage of gold?",
         "options": [
-          "Central Laboratory, Sahibabad (Ghaziabad)",
-          "National Physical Laboratory, Delhi",
-          "Bhabha Atomic Research Centre, Trombay",
-          "Central Drug Research Institute, Lucknow"
+          "99.9%",
+          "91.6%",
+          "75.0%",
+          "83.3%"
+        ]
+      },
+      {
+        "question_index": 12,
+        "id": 29,
+        "question": "What does a 'QCO' issued by the Government of India in conjunction with BIS stand for?",
+        "options": [
+          "Quality Control Order",
+          "Quarterly Compliance Objective",
+          "Qualified Consumer Organization",
+          "Quantitative Certificate of Origin"
+        ]
+      },
+      {
+        "question_index": 13,
+        "id": 30,
+        "question": "What is the primary objective of the 'Know Your Standards' facility on the BIS portal?",
+        "options": [
+          "Selling expensive standard copies to multinational companies",
+          "Allowing citizens, students, and manufacturers to view Indian Standards free of charge",
+          "Providing patent registration for inventors",
+          "Conducting civil service examinations"
+        ]
+      },
+      {
+        "question_index": 14,
+        "id": 18,
+        "question": "Which Indian Standard specifies the specifications and safety requirements for Packaged Drinking Water?",
+        "options": [
+          "IS 456",
+          "IS 14543",
+          "IS 10500",
+          "IS 1165"
+        ]
+      },
+      {
+        "question_index": 15,
+        "id": 23,
+        "question": "Which Indian Standard specifies the safety and performance requirements for Two-Wheeler Protective Helmets?",
+        "options": [
+          "IS 4151",
+          "IS 2062",
+          "IS 1786",
+          "IS 302"
+        ]
+      },
+      {
+        "question_index": 16,
+        "id": 35,
+        "question": "What is the initial validity period of a standard Product Certification license granted by BIS?",
+        "options": [
+          "6 months",
+          "1 to 2 years",
+          "10 years",
+          "Lifetime validity"
+        ]
+      },
+      {
+        "question_index": 17,
+        "id": 6,
+        "question": "Which official mobile application has been launched by BIS for consumers to verify ISI mark, Hallmarking, and register complaints?",
+        "options": [
+          "BIS Care App",
+          "Manak Seva App",
+          "Standard India App",
+          "Consumer Connect App"
+        ]
+      },
+      {
+        "question_index": 18,
+        "id": 16,
+        "question": "Under the BIS Act 2016, who serves ex-officio as the President of the Bureau of Indian Standards?",
+        "options": [
+          "Prime Minister of India",
+          "Cabinet Secretary",
+          "Union Minister of Consumer Affairs, Food and Public Distribution",
+          "Director General of BIS"
+        ]
+      },
+      {
+        "question_index": 19,
+        "id": 28,
+        "question": "Under BIS regulations, which of the following items is mandatory to have the ISI mark before being sold in India?",
+        "options": [
+          "Packaged Drinking Water & Mineral Water",
+          "Cotton handkerchiefs",
+          "Wooden dining tables",
+          "Ballpoint pens"
+        ]
+      },
+      {
+        "question_index": 20,
+        "id": 14,
+        "question": "What is the initiative by BIS to establish student clubs in colleges and schools to promote quality consciousness?",
+        "options": [
+          "Standards Club",
+          "Quality Youth Club",
+          "Manak Mitra Society",
+          "Safety & Standard Forum"
+        ]
+      },
+      {
+        "question_index": 21,
+        "id": 12,
+        "question": "On which date is 'World Standards Day' celebrated across the globe each year?",
+        "options": [
+          "15 August",
+          "5 June",
+          "14 October",
+          "28 February"
+        ]
+      },
+      {
+        "question_index": 22,
+        "id": 27,
+        "question": "Which international body responsible for global electro-technical standards does BIS represent India in?",
+        "options": [
+          "International Electrotechnical Commission (IEC)",
+          "ITU",
+          "CENELEC",
+          "ANSI"
         ]
       },
       {
@@ -295,39 +295,28 @@
       },
       {
         "question_index": 24,
-        "id": 17,
-        "question": "What is the CRS scheme administered by BIS, primarily applied to laptops, mobile phones, and IT equipment?",
+        "id": 7,
+        "question": "What is the standard mark issued by BIS for industrial and consumer goods in India?",
         "options": [
-          "Compulsory Registration Scheme",
-          "Central Regulatory Standard",
-          "Consumer Reliability System",
-          "Certified Radio Standard"
+          "Agmark",
+          "ISI Mark",
+          "FSSAI Mark",
+          "Silk Mark"
         ]
       },
       {
         "question_index": 25,
-        "id": 16,
-        "question": "Under the BIS Act 2016, who serves ex-officio as the President of the Bureau of Indian Standards?",
+        "id": 1,
+        "question": "What is the full form of BIS?",
         "options": [
-          "Prime Minister of India",
-          "Cabinet Secretary",
-          "Union Minister of Consumer Affairs, Food and Public Distribution",
-          "Director General of BIS"
+          "Bureau of Indian Standards",
+          "Board of Indian Standardization",
+          "Bureau of Industrial Safety",
+          "Bharat Institute of Standards"
         ]
       },
       {
         "question_index": 26,
-        "id": 14,
-        "question": "What is the initiative by BIS to establish student clubs in colleges and schools to promote quality consciousness?",
-        "options": [
-          "Standards Club",
-          "Quality Youth Club",
-          "Manak Mitra Society",
-          "Safety & Standard Forum"
-        ]
-      },
-      {
-        "question_index": 27,
         "id": 11,
         "question": "Which certification mark is issued by BIS for products that meet quality standards along with specified environmental criteria?",
         "options": [
@@ -338,18 +327,435 @@
         ]
       },
       {
-        "question_index": 28,
-        "id": 6,
-        "question": "Which official mobile application has been launched by BIS for consumers to verify ISI mark, Hallmarking, and register complaints?",
+        "question_index": 27,
+        "id": 20,
+        "question": "What is the Indian Standard code of practice for Plain and Reinforced Concrete (widely studied by Civil Engineers)?",
         "options": [
-          "BIS Care App",
-          "Manak Seva App",
-          "Standard India App",
-          "Consumer Connect App"
+          "IS 800",
+          "IS 456",
+          "IS 1893",
+          "IS 875"
+        ]
+      },
+      {
+        "question_index": 28,
+        "id": 32,
+        "question": "What does the National Institute of Training for Standardization (NITS) established by BIS do?",
+        "options": [
+          "Trains BIS officers, industry personnel, and international fellows on standards & quality",
+          "Conducts university degree engineering programs",
+          "Manufactures testing instruments",
+          "Issues passports and visas"
         ]
       },
       {
         "question_index": 29,
+        "id": 4,
+        "question": "Where is the headquarters of the Bureau of Indian Standards located?",
+        "options": [
+          "Mumbai, Maharashtra",
+          "Manak Bhavan, New Delhi",
+          "Bengaluru, Karnataka",
+          "Kolkata, West Bengal"
+        ]
+      },
+      {
+        "question_index": 30,
+        "id": 21,
+        "question": "What is the Indian Standard code for Earthquake Resistant Design of Structures?",
+        "options": [
+          "IS 1893",
+          "IS 800",
+          "IS 13920",
+          "IS 4326"
+        ]
+      }
+    ],
+    "total_questions": 30,
+    "total_time_seconds": 1200,
+    "start_timestamp": 1792346956.719687,
+    "total_points": 0,
+    "correct_count": 0,
+    "speed_bonus": 0,
+    "time_spent_seconds": 0,
+    "submitted_at": "2026-10-18T23:39:43.308691",
+    "submitted_at_formatted": "11:39:43 PM",
+    "time_taken_formatted": "00m 00s",
+    "base_points": 0,
+    "result_details": [
+      {
+        "id": 17,
+        "question": "What is the CRS scheme administered by BIS, primarily applied to laptops, mobile phones, and IT equipment?",
+        "user_answer": 3,
+        "correct_answer": 0,
+        "is_correct": false,
+        "explanation": "CRS stands for Compulsory Registration Scheme, managed by BIS for electronics and IT goods notified by MeitY."
+      },
+      {
+        "id": 13,
+        "question": "What is the single online portal of BIS that provides end-to-end digital services for standards formulation and certification?",
+        "user_answer": 3,
+        "correct_answer": 0,
+        "is_correct": false,
+        "explanation": "Manakonline (www.manakonline.in) is the comprehensive online platform for all BIS e-governance services."
+      },
+      {
+        "id": 5,
+        "question": "What is the Sanskrit motto inscribed in the BIS logo?",
+        "user_answer": null,
+        "correct_answer": 1,
+        "is_correct": false,
+        "explanation": "The BIS motto is '\u092e\u093e\u0928\u0915: \u092a\u0925\u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0915:' which translates to 'Standards Lead the Way'."
+      },
+      {
+        "id": 24,
+        "question": "What are the three mandatory marks found on hallmarked gold jewellery in India today?",
+        "user_answer": null,
+        "correct_answer": 1,
+        "is_correct": false,
+        "explanation": "Hallmarked gold jewellery contains: 1) BIS Logo, 2) Purity in Karat and Fineness (e.g. 22K916), and 3) 6-digit HUID code."
+      },
+      {
+        "id": 15,
+        "question": "Which Ministry is the administrative ministry governing the Bureau of Indian Standards?",
+        "user_answer": null,
+        "correct_answer": 2,
+        "is_correct": false,
+        "explanation": "BIS operates under the Ministry of Consumer Affairs, Food and Public Distribution, Government of India."
+      },
+      {
+        "id": 8,
+        "question": "What does 'HUID' stand for in the context of mandatory gold jewellery hallmarking in India?",
+        "user_answer": null,
+        "correct_answer": 0,
+        "is_correct": false,
+        "explanation": "HUID stands for Hallmark Unique Identification, a unique 6-digit alphanumeric code assigned to each hallmarked jewellery piece."
+      },
+      {
+        "id": 25,
+        "question": "How many Regional Offices does the Bureau of Indian Standards have across India?",
+        "user_answer": null,
+        "correct_answer": 1,
+        "is_correct": false,
+        "explanation": "BIS has 5 Regional Offices: Northern (Chandigarh), Central (Ghaziabad), Eastern (Kolkata), Southern (Chennai), and Western (Mumbai)."
+      },
+      {
+        "id": 34,
+        "question": "Which laboratory is the central and apex testing laboratory operated directly by BIS?",
+        "user_answer": null,
+        "correct_answer": 0,
+        "is_correct": false,
+        "explanation": "The Central Laboratory of BIS is located at Sahibabad, Ghaziabad, equipped with state-of-the-art testing facilities."
+      },
+      {
+        "id": 2,
+        "question": "BIS was formerly known as which organization established in 1947?",
+        "user_answer": null,
+        "correct_answer": 1,
+        "is_correct": false,
+        "explanation": "BIS was established through the BIS Act, taking over the functions of the Indian Standards Institution (ISI) founded on 6 January 1947."
+      },
+      {
+        "id": 33,
+        "question": "What penalty can be imposed under the BIS Act 2016 for unauthorized use of the standard ISI mark?",
+        "user_answer": null,
+        "correct_answer": 1,
+        "is_correct": false,
+        "explanation": "Under the BIS Act 2016, misuse of the Standard Mark can lead to imprisonment up to two years and heavy fines up to 5 lakh rupees."
+      },
+      {
+        "id": 10,
+        "question": "Gold jewellery marked with '22K916' indicates what purity percentage of gold?",
+        "user_answer": null,
+        "correct_answer": 1,
+        "is_correct": false,
+        "explanation": "22 Karat gold corresponds to 916 fineness, which means 91.6% pure gold."
+      },
+      {
+        "id": 29,
+        "question": "What does a 'QCO' issued by the Government of India in conjunction with BIS stand for?",
+        "user_answer": null,
+        "correct_answer": 0,
+        "is_correct": false,
+        "explanation": "Quality Control Orders (QCOs) make compliance with relevant Indian Standards and BIS certification mandatory for specified products."
+      },
+      {
+        "id": 30,
+        "question": "What is the primary objective of the 'Know Your Standards' facility on the BIS portal?",
+        "user_answer": null,
+        "correct_answer": 1,
+        "is_correct": false,
+        "explanation": "'Know Your Standards' provides free access to read all Indian Standards online for public knowledge and transparency."
+      },
+      {
+        "id": 18,
+        "question": "Which Indian Standard specifies the specifications and safety requirements for Packaged Drinking Water?",
+        "user_answer": null,
+        "correct_answer": 1,
+        "is_correct": false,
+        "explanation": "IS 14543 specifies the requirements for packaged drinking water (other than packaged natural mineral water)."
+      },
+      {
+        "id": 23,
+        "question": "Which Indian Standard specifies the safety and performance requirements for Two-Wheeler Protective Helmets?",
+        "user_answer": null,
+        "correct_answer": 0,
+        "is_correct": false,
+        "explanation": "IS 4151 covers protective helmets for riders of two-wheeled motor vehicles in India."
+      },
+      {
+        "id": 35,
+        "question": "What is the initial validity period of a standard Product Certification license granted by BIS?",
+        "user_answer": null,
+        "correct_answer": 1,
+        "is_correct": false,
+        "explanation": "A BIS Product Certification license is typically granted for an initial period of 1 to 2 years, subject to periodic renewal and surveillance."
+      },
+      {
+        "id": 6,
+        "question": "Which official mobile application has been launched by BIS for consumers to verify ISI mark, Hallmarking, and register complaints?",
+        "user_answer": null,
+        "correct_answer": 0,
+        "is_correct": false,
+        "explanation": "The 'BIS Care App' allows consumers to verify ISI marks, Hallmarking, CRS registration, and lodge quality complaints."
+      },
+      {
+        "id": 16,
+        "question": "Under the BIS Act 2016, who serves ex-officio as the President of the Bureau of Indian Standards?",
+        "user_answer": null,
+        "correct_answer": 2,
+        "is_correct": false,
+        "explanation": "The Union Minister in-charge of Consumer Affairs, Food and Public Distribution is the President of BIS."
+      },
+      {
+        "id": 28,
+        "question": "Under BIS regulations, which of the following items is mandatory to have the ISI mark before being sold in India?",
+        "user_answer": null,
+        "correct_answer": 0,
+        "is_correct": false,
+        "explanation": "Packaged drinking water and natural mineral water are under mandatory BIS certification (QCO) and cannot be sold without the ISI mark."
+      },
+      {
+        "id": 14,
+        "question": "What is the initiative by BIS to establish student clubs in colleges and schools to promote quality consciousness?",
+        "user_answer": null,
+        "correct_answer": 0,
+        "is_correct": false,
+        "explanation": "BIS establishes 'Standards Clubs' in educational institutions to nurture quality consciousness and standards literacy among students."
+      },
+      {
+        "id": 12,
+        "question": "On which date is 'World Standards Day' celebrated across the globe each year?",
+        "user_answer": null,
+        "correct_answer": 2,
+        "is_correct": false,
+        "explanation": "World Standards Day is celebrated internationally on 14 October to honor the collaborative efforts of standardization experts."
+      },
+      {
+        "id": 27,
+        "question": "Which international body responsible for global electro-technical standards does BIS represent India in?",
+        "user_answer": null,
+        "correct_answer": 0,
+        "is_correct": false,
+        "explanation": "BIS represents India as the National Committee in the International Electrotechnical Commission (IEC)."
+      },
+      {
+        "id": 19,
+        "question": "Which Indian Standard specifies the quality parameters for Drinking Water (Potable Water)?",
+        "user_answer": null,
+        "correct_answer": 0,
+        "is_correct": false,
+        "explanation": "IS 10500 is the Indian Standard for Drinking Water specifications in India."
+      },
+      {
+        "id": 7,
+        "question": "What is the standard mark issued by BIS for industrial and consumer goods in India?",
+        "user_answer": null,
+        "correct_answer": 1,
+        "is_correct": false,
+        "explanation": "The ISI mark is the certified conformity mark for industrial goods certified by BIS under Product Certification Schemes."
+      },
+      {
+        "id": 1,
+        "question": "What is the full form of BIS?",
+        "user_answer": null,
+        "correct_answer": 0,
+        "is_correct": false,
+        "explanation": "BIS stands for Bureau of Indian Standards, the National Standards Body of India."
+      },
+      {
+        "id": 11,
+        "question": "Which certification mark is issued by BIS for products that meet quality standards along with specified environmental criteria?",
+        "user_answer": null,
+        "correct_answer": 1,
+        "is_correct": false,
+        "explanation": "The ECO Mark scheme was instituted by the Government of India and is administered by BIS for environment-friendly products."
+      },
+      {
+        "id": 20,
+        "question": "What is the Indian Standard code of practice for Plain and Reinforced Concrete (widely studied by Civil Engineers)?",
+        "user_answer": null,
+        "correct_answer": 1,
+        "is_correct": false,
+        "explanation": "IS 456 (IS 456:2000) is the code of practice for plain and reinforced concrete."
+      },
+      {
+        "id": 32,
+        "question": "What does the National Institute of Training for Standardization (NITS) established by BIS do?",
+        "user_answer": null,
+        "correct_answer": 0,
+        "is_correct": false,
+        "explanation": "NITS (located in Noida) is the apex training institute of BIS providing training in standardization, quality management, and testing."
+      },
+      {
+        "id": 4,
+        "question": "Where is the headquarters of the Bureau of Indian Standards located?",
+        "user_answer": null,
+        "correct_answer": 1,
+        "is_correct": false,
+        "explanation": "BIS headquarters is located at Manak Bhavan, 9 Bahadur Shah Zafar Marg, New Delhi."
+      },
+      {
+        "id": 21,
+        "question": "What is the Indian Standard code for Earthquake Resistant Design of Structures?",
+        "user_answer": null,
+        "correct_answer": 0,
+        "is_correct": false,
+        "explanation": "IS 1893 provides criteria for earthquake resistant design of structures in India."
+      }
+    ]
+  },
+  "da48b523-1252-4e07-82f1-cae29f629387": {
+    "id": "da48b523-1252-4e07-82f1-cae29f629387",
+    "name": "Vishesh",
+    "phone": "8630453935",
+    "college_id": "2026ucpq9q9",
+    "registered_at": "2026-10-18T23:41:21.172277",
+    "registered_at_formatted": "11:41:21 PM",
+    "status": "In Progress",
+    "question_ids": [
+      27,
+      31,
+      5,
+      18,
+      14,
+      28,
+      34,
+      33,
+      30,
+      29,
+      9,
+      6,
+      3,
+      19,
+      13,
+      20,
+      7,
+      21,
+      1,
+      4,
+      32,
+      17,
+      22,
+      2,
+      25,
+      24,
+      16,
+      15,
+      23,
+      12
+    ],
+    "sanitized_questions": [
+      {
+        "question_index": 1,
+        "id": 27,
+        "question": "Which international body responsible for global electro-technical standards does BIS represent India in?",
+        "options": [
+          "International Electrotechnical Commission (IEC)",
+          "ITU",
+          "CENELEC",
+          "ANSI"
+        ]
+      },
+      {
+        "question_index": 2,
+        "id": 31,
+        "question": "Which Indian Standard specifies the requirements for High Strength Deformed (TMT) steel bars used in concrete reinforcement?",
+        "options": [
+          "IS 1786",
+          "IS 2062",
+          "IS 800",
+          "IS 1239"
+        ]
+      },
+      {
+        "question_index": 3,
+        "id": 5,
+        "question": "What is the Sanskrit motto inscribed in the BIS logo?",
+        "options": [
+          "\u0938\u0924\u094d\u092f\u092e\u0947\u0935 \u091c\u092f\u0924\u0947 (Satyameva Jayate)",
+          "\u092e\u093e\u0928\u0915: \u092a\u0925\u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0915: (Manakah Pathapradarshakah)",
+          "\u092f\u094b\u0917: \u0915\u0930\u094d\u092e\u0938\u0941 \u0915\u094c\u0936\u0932\u092e\u094d (Yogah Karmasu Kaushalam)",
+          "\u0927\u0930\u094d\u092e\u094b \u0930\u0915\u094d\u0937\u0924\u093f \u0930\u0915\u094d\u0937\u093f\u0924: (Dharmo Rakshati Rakshitah)"
+        ]
+      },
+      {
+        "question_index": 4,
+        "id": 18,
+        "question": "Which Indian Standard specifies the specifications and safety requirements for Packaged Drinking Water?",
+        "options": [
+          "IS 456",
+          "IS 14543",
+          "IS 10500",
+          "IS 1165"
+        ]
+      },
+      {
+        "question_index": 5,
+        "id": 14,
+        "question": "What is the initiative by BIS to establish student clubs in colleges and schools to promote quality consciousness?",
+        "options": [
+          "Standards Club",
+          "Quality Youth Club",
+          "Manak Mitra Society",
+          "Safety & Standard Forum"
+        ]
+      },
+      {
+        "question_index": 6,
+        "id": 28,
+        "question": "Under BIS regulations, which of the following items is mandatory to have the ISI mark before being sold in India?",
+        "options": [
+          "Packaged Drinking Water & Mineral Water",
+          "Cotton handkerchiefs",
+          "Wooden dining tables",
+          "Ballpoint pens"
+        ]
+      },
+      {
+        "question_index": 7,
+        "id": 34,
+        "question": "Which laboratory is the central and apex testing laboratory operated directly by BIS?",
+        "options": [
+          "Central Laboratory, Sahibabad (Ghaziabad)",
+          "National Physical Laboratory, Delhi",
+          "Bhabha Atomic Research Centre, Trombay",
+          "Central Drug Research Institute, Lucknow"
+        ]
+      },
+      {
+        "question_index": 8,
+        "id": 33,
+        "question": "What penalty can be imposed under the BIS Act 2016 for unauthorized use of the standard ISI mark?",
+        "options": [
+          "Only a warning notice",
+          "Imprisonment up to 2 years, fine up to Rs 5 lakh (or both)",
+          "A fine of Rs 500 only",
+          "No legal penalty exists"
+        ]
+      },
+      {
+        "question_index": 9,
         "id": 30,
         "question": "What is the primary objective of the 'Know Your Standards' facility on the BIS portal?",
         "options": [
@@ -360,7 +766,216 @@
         ]
       },
       {
-        "question_index": 30,
+        "question_index": 10,
+        "id": 29,
+        "question": "What does a 'QCO' issued by the Government of India in conjunction with BIS stand for?",
+        "options": [
+          "Quality Control Order",
+          "Quarterly Compliance Objective",
+          "Qualified Consumer Organization",
+          "Quantitative Certificate of Origin"
+        ]
+      },
+      {
+        "question_index": 11,
+        "id": 9,
+        "question": "How many alphanumeric characters are there in an authentic HUID code stamped on gold jewellery?",
+        "options": [
+          "4 characters",
+          "6 characters",
+          "8 characters",
+          "10 characters"
+        ]
+      },
+      {
+        "question_index": 12,
+        "id": 6,
+        "question": "Which official mobile application has been launched by BIS for consumers to verify ISI mark, Hallmarking, and register complaints?",
+        "options": [
+          "BIS Care App",
+          "Manak Seva App",
+          "Standard India App",
+          "Consumer Connect App"
+        ]
+      },
+      {
+        "question_index": 13,
+        "id": 3,
+        "question": "Which Act established the Bureau of Indian Standards as the National Standards Body of India?",
+        "options": [
+          "The BIS Act, 1986",
+          "The Consumer Protection Act, 2019",
+          "The Bureau of Indian Standards Act, 2016",
+          "The Standards of Weights and Measures Act"
+        ]
+      },
+      {
+        "question_index": 14,
+        "id": 19,
+        "question": "Which Indian Standard specifies the quality parameters for Drinking Water (Potable Water)?",
+        "options": [
+          "IS 10500",
+          "IS 4984",
+          "IS 1239",
+          "IS 383"
+        ]
+      },
+      {
+        "question_index": 15,
+        "id": 13,
+        "question": "What is the single online portal of BIS that provides end-to-end digital services for standards formulation and certification?",
+        "options": [
+          "Manakonline",
+          "e-Standard Portal",
+          "BIS Digital Hub",
+          "QualityPortal.gov.in"
+        ]
+      },
+      {
+        "question_index": 16,
+        "id": 20,
+        "question": "What is the Indian Standard code of practice for Plain and Reinforced Concrete (widely studied by Civil Engineers)?",
+        "options": [
+          "IS 800",
+          "IS 456",
+          "IS 1893",
+          "IS 875"
+        ]
+      },
+      {
+        "question_index": 17,
+        "id": 7,
+        "question": "What is the standard mark issued by BIS for industrial and consumer goods in India?",
+        "options": [
+          "Agmark",
+          "ISI Mark",
+          "FSSAI Mark",
+          "Silk Mark"
+        ]
+      },
+      {
+        "question_index": 18,
+        "id": 21,
+        "question": "What is the Indian Standard code for Earthquake Resistant Design of Structures?",
+        "options": [
+          "IS 1893",
+          "IS 800",
+          "IS 13920",
+          "IS 4326"
+        ]
+      },
+      {
+        "question_index": 19,
+        "id": 1,
+        "question": "What is the full form of BIS?",
+        "options": [
+          "Bureau of Indian Standards",
+          "Board of Indian Standardization",
+          "Bureau of Industrial Safety",
+          "Bharat Institute of Standards"
+        ]
+      },
+      {
+        "question_index": 20,
+        "id": 4,
+        "question": "Where is the headquarters of the Bureau of Indian Standards located?",
+        "options": [
+          "Mumbai, Maharashtra",
+          "Manak Bhavan, New Delhi",
+          "Bengaluru, Karnataka",
+          "Kolkata, West Bengal"
+        ]
+      },
+      {
+        "question_index": 21,
+        "id": 32,
+        "question": "What does the National Institute of Training for Standardization (NITS) established by BIS do?",
+        "options": [
+          "Trains BIS officers, industry personnel, and international fellows on standards & quality",
+          "Conducts university degree engineering programs",
+          "Manufactures testing instruments",
+          "Issues passports and visas"
+        ]
+      },
+      {
+        "question_index": 22,
+        "id": 17,
+        "question": "What is the CRS scheme administered by BIS, primarily applied to laptops, mobile phones, and IT equipment?",
+        "options": [
+          "Compulsory Registration Scheme",
+          "Central Regulatory Standard",
+          "Consumer Reliability System",
+          "Certified Radio Standard"
+        ]
+      },
+      {
+        "question_index": 23,
+        "id": 22,
+        "question": "Which publication by BIS serves as the comprehensive model building code adopted by local bodies across India?",
+        "options": [
+          "National Electrical Code (NEC)",
+          "National Building Code of India (NBC)",
+          "Indian Highway Code (IHC)",
+          "Urban Infrastructure Code (UIC)"
+        ]
+      },
+      {
+        "question_index": 24,
+        "id": 2,
+        "question": "BIS was formerly known as which organization established in 1947?",
+        "options": [
+          "Indian Quality Council (IQC)",
+          "Indian Standards Institution (ISI)",
+          "National Quality Bureau (NQB)",
+          "Bharat Standardization Agency (BSA)"
+        ]
+      },
+      {
+        "question_index": 25,
+        "id": 25,
+        "question": "How many Regional Offices does the Bureau of Indian Standards have across India?",
+        "options": [
+          "3",
+          "5",
+          "10",
+          "15"
+        ]
+      },
+      {
+        "question_index": 26,
+        "id": 24,
+        "question": "What are the three mandatory marks found on hallmarked gold jewellery in India today?",
+        "options": [
+          "Jeweller name, Weight in grams, Manufacturing date",
+          "BIS Logo, Purity/Fineness grade, 6-digit HUID",
+          "State code, Karat stamp, Price tag",
+          "Agmark logo, Hallmarking center number, Year letter"
+        ]
+      },
+      {
+        "question_index": 27,
+        "id": 16,
+        "question": "Under the BIS Act 2016, who serves ex-officio as the President of the Bureau of Indian Standards?",
+        "options": [
+          "Prime Minister of India",
+          "Cabinet Secretary",
+          "Union Minister of Consumer Affairs, Food and Public Distribution",
+          "Director General of BIS"
+        ]
+      },
+      {
+        "question_index": 28,
+        "id": 15,
+        "question": "Which Ministry is the administrative ministry governing the Bureau of Indian Standards?",
+        "options": [
+          "Ministry of Commerce and Industry",
+          "Ministry of Science and Technology",
+          "Ministry of Consumer Affairs, Food and Public Distribution",
+          "Ministry of Heavy Industries"
+        ]
+      },
+      {
+        "question_index": 29,
         "id": 23,
         "question": "Which Indian Standard specifies the safety and performance requirements for Two-Wheeler Protective Helmets?",
         "options": [
@@ -369,43 +984,490 @@
           "IS 1786",
           "IS 302"
         ]
+      },
+      {
+        "question_index": 30,
+        "id": 12,
+        "question": "On which date is 'World Standards Day' celebrated across the globe each year?",
+        "options": [
+          "15 August",
+          "5 June",
+          "14 October",
+          "28 February"
+        ]
       }
     ],
     "total_questions": 30,
     "total_time_seconds": 1200,
-    "start_timestamp": 1792345561.820596,
+    "start_timestamp": 1792347081.172343,
+    "total_points": 0,
+    "correct_count": 0,
+    "speed_bonus": 0,
+    "time_spent_seconds": 0
+  },
+  "4088a18a-ede2-46dc-869c-4dbc86654773": {
+    "id": "4088a18a-ede2-46dc-869c-4dbc86654773",
+    "name": "Aarav Sharma",
+    "phone": "9876543210",
+    "college_id": "COLLEGE-2026-001",
+    "registered_at": "2026-10-18T23:48:11.604369",
+    "registered_at_formatted": "11:48:11 PM",
+    "status": "Completed",
+    "question_ids": [
+      12,
+      20,
+      9,
+      34,
+      14,
+      6,
+      13,
+      22,
+      7,
+      33,
+      2,
+      27,
+      3,
+      35,
+      23,
+      25,
+      10,
+      15,
+      24,
+      19,
+      30,
+      18,
+      32,
+      21,
+      17,
+      4,
+      26,
+      5,
+      1,
+      31
+    ],
+    "sanitized_questions": [
+      {
+        "question_index": 1,
+        "id": 12,
+        "question": "On which date is 'World Standards Day' celebrated across the globe each year?",
+        "options": [
+          "15 August",
+          "5 June",
+          "14 October",
+          "28 February"
+        ]
+      },
+      {
+        "question_index": 2,
+        "id": 20,
+        "question": "What is the Indian Standard code of practice for Plain and Reinforced Concrete (widely studied by Civil Engineers)?",
+        "options": [
+          "IS 800",
+          "IS 456",
+          "IS 1893",
+          "IS 875"
+        ]
+      },
+      {
+        "question_index": 3,
+        "id": 9,
+        "question": "How many alphanumeric characters are there in an authentic HUID code stamped on gold jewellery?",
+        "options": [
+          "4 characters",
+          "6 characters",
+          "8 characters",
+          "10 characters"
+        ]
+      },
+      {
+        "question_index": 4,
+        "id": 34,
+        "question": "Which laboratory is the central and apex testing laboratory operated directly by BIS?",
+        "options": [
+          "Central Laboratory, Sahibabad (Ghaziabad)",
+          "National Physical Laboratory, Delhi",
+          "Bhabha Atomic Research Centre, Trombay",
+          "Central Drug Research Institute, Lucknow"
+        ]
+      },
+      {
+        "question_index": 5,
+        "id": 14,
+        "question": "What is the initiative by BIS to establish student clubs in colleges and schools to promote quality consciousness?",
+        "options": [
+          "Standards Club",
+          "Quality Youth Club",
+          "Manak Mitra Society",
+          "Safety & Standard Forum"
+        ]
+      },
+      {
+        "question_index": 6,
+        "id": 6,
+        "question": "Which official mobile application has been launched by BIS for consumers to verify ISI mark, Hallmarking, and register complaints?",
+        "options": [
+          "BIS Care App",
+          "Manak Seva App",
+          "Standard India App",
+          "Consumer Connect App"
+        ]
+      },
+      {
+        "question_index": 7,
+        "id": 13,
+        "question": "What is the single online portal of BIS that provides end-to-end digital services for standards formulation and certification?",
+        "options": [
+          "Manakonline",
+          "e-Standard Portal",
+          "BIS Digital Hub",
+          "QualityPortal.gov.in"
+        ]
+      },
+      {
+        "question_index": 8,
+        "id": 22,
+        "question": "Which publication by BIS serves as the comprehensive model building code adopted by local bodies across India?",
+        "options": [
+          "National Electrical Code (NEC)",
+          "National Building Code of India (NBC)",
+          "Indian Highway Code (IHC)",
+          "Urban Infrastructure Code (UIC)"
+        ]
+      },
+      {
+        "question_index": 9,
+        "id": 7,
+        "question": "What is the standard mark issued by BIS for industrial and consumer goods in India?",
+        "options": [
+          "Agmark",
+          "ISI Mark",
+          "FSSAI Mark",
+          "Silk Mark"
+        ]
+      },
+      {
+        "question_index": 10,
+        "id": 33,
+        "question": "What penalty can be imposed under the BIS Act 2016 for unauthorized use of the standard ISI mark?",
+        "options": [
+          "Only a warning notice",
+          "Imprisonment up to 2 years, fine up to Rs 5 lakh (or both)",
+          "A fine of Rs 500 only",
+          "No legal penalty exists"
+        ]
+      },
+      {
+        "question_index": 11,
+        "id": 2,
+        "question": "BIS was formerly known as which organization established in 1947?",
+        "options": [
+          "Indian Quality Council (IQC)",
+          "Indian Standards Institution (ISI)",
+          "National Quality Bureau (NQB)",
+          "Bharat Standardization Agency (BSA)"
+        ]
+      },
+      {
+        "question_index": 12,
+        "id": 27,
+        "question": "Which international body responsible for global electro-technical standards does BIS represent India in?",
+        "options": [
+          "International Electrotechnical Commission (IEC)",
+          "ITU",
+          "CENELEC",
+          "ANSI"
+        ]
+      },
+      {
+        "question_index": 13,
+        "id": 3,
+        "question": "Which Act established the Bureau of Indian Standards as the National Standards Body of India?",
+        "options": [
+          "The BIS Act, 1986",
+          "The Consumer Protection Act, 2019",
+          "The Bureau of Indian Standards Act, 2016",
+          "The Standards of Weights and Measures Act"
+        ]
+      },
+      {
+        "question_index": 14,
+        "id": 35,
+        "question": "What is the initial validity period of a standard Product Certification license granted by BIS?",
+        "options": [
+          "6 months",
+          "1 to 2 years",
+          "10 years",
+          "Lifetime validity"
+        ]
+      },
+      {
+        "question_index": 15,
+        "id": 23,
+        "question": "Which Indian Standard specifies the safety and performance requirements for Two-Wheeler Protective Helmets?",
+        "options": [
+          "IS 4151",
+          "IS 2062",
+          "IS 1786",
+          "IS 302"
+        ]
+      },
+      {
+        "question_index": 16,
+        "id": 25,
+        "question": "How many Regional Offices does the Bureau of Indian Standards have across India?",
+        "options": [
+          "3",
+          "5",
+          "10",
+          "15"
+        ]
+      },
+      {
+        "question_index": 17,
+        "id": 10,
+        "question": "Gold jewellery marked with '22K916' indicates what purity percentage of gold?",
+        "options": [
+          "99.9%",
+          "91.6%",
+          "75.0%",
+          "83.3%"
+        ]
+      },
+      {
+        "question_index": 18,
+        "id": 15,
+        "question": "Which Ministry is the administrative ministry governing the Bureau of Indian Standards?",
+        "options": [
+          "Ministry of Commerce and Industry",
+          "Ministry of Science and Technology",
+          "Ministry of Consumer Affairs, Food and Public Distribution",
+          "Ministry of Heavy Industries"
+        ]
+      },
+      {
+        "question_index": 19,
+        "id": 24,
+        "question": "What are the three mandatory marks found on hallmarked gold jewellery in India today?",
+        "options": [
+          "Jeweller name, Weight in grams, Manufacturing date",
+          "BIS Logo, Purity/Fineness grade, 6-digit HUID",
+          "State code, Karat stamp, Price tag",
+          "Agmark logo, Hallmarking center number, Year letter"
+        ]
+      },
+      {
+        "question_index": 20,
+        "id": 19,
+        "question": "Which Indian Standard specifies the quality parameters for Drinking Water (Potable Water)?",
+        "options": [
+          "IS 10500",
+          "IS 4984",
+          "IS 1239",
+          "IS 383"
+        ]
+      },
+      {
+        "question_index": 21,
+        "id": 30,
+        "question": "What is the primary objective of the 'Know Your Standards' facility on the BIS portal?",
+        "options": [
+          "Selling expensive standard copies to multinational companies",
+          "Allowing citizens, students, and manufacturers to view Indian Standards free of charge",
+          "Providing patent registration for inventors",
+          "Conducting civil service examinations"
+        ]
+      },
+      {
+        "question_index": 22,
+        "id": 18,
+        "question": "Which Indian Standard specifies the specifications and safety requirements for Packaged Drinking Water?",
+        "options": [
+          "IS 456",
+          "IS 14543",
+          "IS 10500",
+          "IS 1165"
+        ]
+      },
+      {
+        "question_index": 23,
+        "id": 32,
+        "question": "What does the National Institute of Training for Standardization (NITS) established by BIS do?",
+        "options": [
+          "Trains BIS officers, industry personnel, and international fellows on standards & quality",
+          "Conducts university degree engineering programs",
+          "Manufactures testing instruments",
+          "Issues passports and visas"
+        ]
+      },
+      {
+        "question_index": 24,
+        "id": 21,
+        "question": "What is the Indian Standard code for Earthquake Resistant Design of Structures?",
+        "options": [
+          "IS 1893",
+          "IS 800",
+          "IS 13920",
+          "IS 4326"
+        ]
+      },
+      {
+        "question_index": 25,
+        "id": 17,
+        "question": "What is the CRS scheme administered by BIS, primarily applied to laptops, mobile phones, and IT equipment?",
+        "options": [
+          "Compulsory Registration Scheme",
+          "Central Regulatory Standard",
+          "Consumer Reliability System",
+          "Certified Radio Standard"
+        ]
+      },
+      {
+        "question_index": 26,
+        "id": 4,
+        "question": "Where is the headquarters of the Bureau of Indian Standards located?",
+        "options": [
+          "Mumbai, Maharashtra",
+          "Manak Bhavan, New Delhi",
+          "Bengaluru, Karnataka",
+          "Kolkata, West Bengal"
+        ]
+      },
+      {
+        "question_index": 27,
+        "id": 26,
+        "question": "BIS is a founder member of which premier international standardization organization?",
+        "options": [
+          "International Organization for Standardization (ISO)",
+          "World Trade Organization (WTO)",
+          "IEEE",
+          "ASTM International"
+        ]
+      },
+      {
+        "question_index": 28,
+        "id": 5,
+        "question": "What is the Sanskrit motto inscribed in the BIS logo?",
+        "options": [
+          "\u0938\u0924\u094d\u092f\u092e\u0947\u0935 \u091c\u092f\u0924\u0947 (Satyameva Jayate)",
+          "\u092e\u093e\u0928\u0915: \u092a\u0925\u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0915: (Manakah Pathapradarshakah)",
+          "\u092f\u094b\u0917: \u0915\u0930\u094d\u092e\u0938\u0941 \u0915\u094c\u0936\u0932\u092e\u094d (Yogah Karmasu Kaushalam)",
+          "\u0927\u0930\u094d\u092e\u094b \u0930\u0915\u094d\u0937\u0924\u093f \u0930\u0915\u094d\u0937\u093f\u0924: (Dharmo Rakshati Rakshitah)"
+        ]
+      },
+      {
+        "question_index": 29,
+        "id": 1,
+        "question": "What is the full form of BIS?",
+        "options": [
+          "Bureau of Indian Standards",
+          "Board of Indian Standardization",
+          "Bureau of Industrial Safety",
+          "Bharat Institute of Standards"
+        ]
+      },
+      {
+        "question_index": 30,
+        "id": 31,
+        "question": "Which Indian Standard specifies the requirements for High Strength Deformed (TMT) steel bars used in concrete reinforcement?",
+        "options": [
+          "IS 1786",
+          "IS 2062",
+          "IS 800",
+          "IS 1239"
+        ]
+      }
+    ],
+    "total_questions": 30,
+    "total_time_seconds": 1200,
+    "start_timestamp": 1792347491.604396,
     "total_points": 4500,
     "correct_count": 30,
     "speed_bonus": 1500,
     "time_spent_seconds": 0,
-    "submitted_at": "2026-10-18T23:16:01.826544",
-    "submitted_at_formatted": "11:16:01 PM",
+    "submitted_at": "2026-10-18T23:48:11.610401",
+    "submitted_at_formatted": "11:48:11 PM",
     "time_taken_formatted": "00m 00s",
     "base_points": 3000,
     "result_details": [
       {
-        "id": 8,
-        "question": "What does 'HUID' stand for in the context of mandatory gold jewellery hallmarking in India?",
-        "user_answer": 0,
-        "correct_answer": 0,
+        "id": 12,
+        "question": "On which date is 'World Standards Day' celebrated across the globe each year?",
+        "user_answer": 2,
+        "correct_answer": 2,
         "is_correct": true,
-        "explanation": "HUID stands for Hallmark Unique Identification, a unique 6-digit alphanumeric code assigned to each hallmarked jewellery piece."
+        "explanation": "World Standards Day is celebrated internationally on 14 October to honor the collaborative efforts of standardization experts."
       },
       {
-        "id": 31,
-        "question": "Which Indian Standard specifies the requirements for High Strength Deformed (TMT) steel bars used in concrete reinforcement?",
-        "user_answer": 0,
-        "correct_answer": 0,
+        "id": 20,
+        "question": "What is the Indian Standard code of practice for Plain and Reinforced Concrete (widely studied by Civil Engineers)?",
+        "user_answer": 1,
+        "correct_answer": 1,
         "is_correct": true,
-        "explanation": "IS 1786 specifies requirements for high strength deformed steel bars and wires for concrete reinforcement (TMT bars)."
+        "explanation": "IS 456 (IS 456:2000) is the code of practice for plain and reinforced concrete."
       },
       {
-        "id": 28,
-        "question": "Under BIS regulations, which of the following items is mandatory to have the ISI mark before being sold in India?",
+        "id": 9,
+        "question": "How many alphanumeric characters are there in an authentic HUID code stamped on gold jewellery?",
+        "user_answer": 1,
+        "correct_answer": 1,
+        "is_correct": true,
+        "explanation": "Every HUID code consists of exactly 6 alphanumeric characters stamped alongside the BIS logo and purity grade."
+      },
+      {
+        "id": 34,
+        "question": "Which laboratory is the central and apex testing laboratory operated directly by BIS?",
         "user_answer": 0,
         "correct_answer": 0,
         "is_correct": true,
-        "explanation": "Packaged drinking water and natural mineral water are under mandatory BIS certification (QCO) and cannot be sold without the ISI mark."
+        "explanation": "The Central Laboratory of BIS is located at Sahibabad, Ghaziabad, equipped with state-of-the-art testing facilities."
+      },
+      {
+        "id": 14,
+        "question": "What is the initiative by BIS to establish student clubs in colleges and schools to promote quality consciousness?",
+        "user_answer": 0,
+        "correct_answer": 0,
+        "is_correct": true,
+        "explanation": "BIS establishes 'Standards Clubs' in educational institutions to nurture quality consciousness and standards literacy among students."
+      },
+      {
+        "id": 6,
+        "question": "Which official mobile application has been launched by BIS for consumers to verify ISI mark, Hallmarking, and register complaints?",
+        "user_answer": 0,
+        "correct_answer": 0,
+        "is_correct": true,
+        "explanation": "The 'BIS Care App' allows consumers to verify ISI marks, Hallmarking, CRS registration, and lodge quality complaints."
+      },
+      {
+        "id": 13,
+        "question": "What is the single online portal of BIS that provides end-to-end digital services for standards formulation and certification?",
+        "user_answer": 0,
+        "correct_answer": 0,
+        "is_correct": true,
+        "explanation": "Manakonline (www.manakonline.in) is the comprehensive online platform for all BIS e-governance services."
+      },
+      {
+        "id": 22,
+        "question": "Which publication by BIS serves as the comprehensive model building code adopted by local bodies across India?",
+        "user_answer": 1,
+        "correct_answer": 1,
+        "is_correct": true,
+        "explanation": "The National Building Code of India (NBC / SP 7) is prepared and published by BIS as a national guideline for building construction."
+      },
+      {
+        "id": 7,
+        "question": "What is the standard mark issued by BIS for industrial and consumer goods in India?",
+        "user_answer": 1,
+        "correct_answer": 1,
+        "is_correct": true,
+        "explanation": "The ISI mark is the certified conformity mark for industrial goods certified by BIS under Product Certification Schemes."
+      },
+      {
+        "id": 33,
+        "question": "What penalty can be imposed under the BIS Act 2016 for unauthorized use of the standard ISI mark?",
+        "user_answer": 1,
+        "correct_answer": 1,
+        "is_correct": true,
+        "explanation": "Under the BIS Act 2016, misuse of the Standard Mark can lead to imprisonment up to two years and heavy fines up to 5 lakh rupees."
       },
       {
         "id": 2,
@@ -416,12 +1478,12 @@
         "explanation": "BIS was established through the BIS Act, taking over the functions of the Indian Standards Institution (ISI) founded on 6 January 1947."
       },
       {
-        "id": 20,
-        "question": "What is the Indian Standard code of practice for Plain and Reinforced Concrete (widely studied by Civil Engineers)?",
-        "user_answer": 1,
-        "correct_answer": 1,
+        "id": 27,
+        "question": "Which international body responsible for global electro-technical standards does BIS represent India in?",
+        "user_answer": 0,
+        "correct_answer": 0,
         "is_correct": true,
-        "explanation": "IS 456 (IS 456:2000) is the code of practice for plain and reinforced concrete."
+        "explanation": "BIS represents India as the National Committee in the International Electrotechnical Commission (IEC)."
       },
       {
         "id": 3,
@@ -440,20 +1502,28 @@
         "explanation": "A BIS Product Certification license is typically granted for an initial period of 1 to 2 years, subject to periodic renewal and surveillance."
       },
       {
-        "id": 4,
-        "question": "Where is the headquarters of the Bureau of Indian Standards located?",
-        "user_answer": 1,
-        "correct_answer": 1,
-        "is_correct": true,
-        "explanation": "BIS headquarters is located at Manak Bhavan, 9 Bahadur Shah Zafar Marg, New Delhi."
-      },
-      {
-        "id": 13,
-        "question": "What is the single online portal of BIS that provides end-to-end digital services for standards formulation and certification?",
+        "id": 23,
+        "question": "Which Indian Standard specifies the safety and performance requirements for Two-Wheeler Protective Helmets?",
         "user_answer": 0,
         "correct_answer": 0,
         "is_correct": true,
-        "explanation": "Manakonline (www.manakonline.in) is the comprehensive online platform for all BIS e-governance services."
+        "explanation": "IS 4151 covers protective helmets for riders of two-wheeled motor vehicles in India."
+      },
+      {
+        "id": 25,
+        "question": "How many Regional Offices does the Bureau of Indian Standards have across India?",
+        "user_answer": 1,
+        "correct_answer": 1,
+        "is_correct": true,
+        "explanation": "BIS has 5 Regional Offices: Northern (Chandigarh), Central (Ghaziabad), Eastern (Kolkata), Southern (Chennai), and Western (Mumbai)."
+      },
+      {
+        "id": 10,
+        "question": "Gold jewellery marked with '22K916' indicates what purity percentage of gold?",
+        "user_answer": 1,
+        "correct_answer": 1,
+        "is_correct": true,
+        "explanation": "22 Karat gold corresponds to 916 fineness, which means 91.6% pure gold."
       },
       {
         "id": 15,
@@ -464,12 +1534,68 @@
         "explanation": "BIS operates under the Ministry of Consumer Affairs, Food and Public Distribution, Government of India."
       },
       {
-        "id": 27,
-        "question": "Which international body responsible for global electro-technical standards does BIS represent India in?",
+        "id": 24,
+        "question": "What are the three mandatory marks found on hallmarked gold jewellery in India today?",
+        "user_answer": 1,
+        "correct_answer": 1,
+        "is_correct": true,
+        "explanation": "Hallmarked gold jewellery contains: 1) BIS Logo, 2) Purity in Karat and Fineness (e.g. 22K916), and 3) 6-digit HUID code."
+      },
+      {
+        "id": 19,
+        "question": "Which Indian Standard specifies the quality parameters for Drinking Water (Potable Water)?",
         "user_answer": 0,
         "correct_answer": 0,
         "is_correct": true,
-        "explanation": "BIS represents India as the National Committee in the International Electrotechnical Commission (IEC)."
+        "explanation": "IS 10500 is the Indian Standard for Drinking Water specifications in India."
+      },
+      {
+        "id": 30,
+        "question": "What is the primary objective of the 'Know Your Standards' facility on the BIS portal?",
+        "user_answer": 1,
+        "correct_answer": 1,
+        "is_correct": true,
+        "explanation": "'Know Your Standards' provides free access to read all Indian Standards online for public knowledge and transparency."
+      },
+      {
+        "id": 18,
+        "question": "Which Indian Standard specifies the specifications and safety requirements for Packaged Drinking Water?",
+        "user_answer": 1,
+        "correct_answer": 1,
+        "is_correct": true,
+        "explanation": "IS 14543 specifies the requirements for packaged drinking water (other than packaged natural mineral water)."
+      },
+      {
+        "id": 32,
+        "question": "What does the National Institute of Training for Standardization (NITS) established by BIS do?",
+        "user_answer": 0,
+        "correct_answer": 0,
+        "is_correct": true,
+        "explanation": "NITS (located in Noida) is the apex training institute of BIS providing training in standardization, quality management, and testing."
+      },
+      {
+        "id": 21,
+        "question": "What is the Indian Standard code for Earthquake Resistant Design of Structures?",
+        "user_answer": 0,
+        "correct_answer": 0,
+        "is_correct": true,
+        "explanation": "IS 1893 provides criteria for earthquake resistant design of structures in India."
+      },
+      {
+        "id": 17,
+        "question": "What is the CRS scheme administered by BIS, primarily applied to laptops, mobile phones, and IT equipment?",
+        "user_answer": 0,
+        "correct_answer": 0,
+        "is_correct": true,
+        "explanation": "CRS stands for Compulsory Registration Scheme, managed by BIS for electronics and IT goods notified by MeitY."
+      },
+      {
+        "id": 4,
+        "question": "Where is the headquarters of the Bureau of Indian Standards located?",
+        "user_answer": 1,
+        "correct_answer": 1,
+        "is_correct": true,
+        "explanation": "BIS headquarters is located at Manak Bhavan, 9 Bahadur Shah Zafar Marg, New Delhi."
       },
       {
         "id": 26,
@@ -488,141 +1614,401 @@
         "explanation": "The BIS motto is '\u092e\u093e\u0928\u0915: \u092a\u0925\u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0915:' which translates to 'Standards Lead the Way'."
       },
       {
-        "id": 10,
-        "question": "Gold jewellery marked with '22K916' indicates what purity percentage of gold?",
-        "user_answer": 1,
-        "correct_answer": 1,
-        "is_correct": true,
-        "explanation": "22 Karat gold corresponds to 916 fineness, which means 91.6% pure gold."
-      },
-      {
-        "id": 21,
-        "question": "What is the Indian Standard code for Earthquake Resistant Design of Structures?",
+        "id": 1,
+        "question": "What is the full form of BIS?",
         "user_answer": 0,
         "correct_answer": 0,
         "is_correct": true,
-        "explanation": "IS 1893 provides criteria for earthquake resistant design of structures in India."
+        "explanation": "BIS stands for Bureau of Indian Standards, the National Standards Body of India."
       },
       {
-        "id": 22,
-        "question": "Which publication by BIS serves as the comprehensive model building code adopted by local bodies across India?",
-        "user_answer": 1,
-        "correct_answer": 1,
-        "is_correct": true,
-        "explanation": "The National Building Code of India (NBC / SP 7) is prepared and published by BIS as a national guideline for building construction."
-      },
-      {
-        "id": 12,
-        "question": "On which date is 'World Standards Day' celebrated across the globe each year?",
-        "user_answer": 2,
-        "correct_answer": 2,
-        "is_correct": true,
-        "explanation": "World Standards Day is celebrated internationally on 14 October to honor the collaborative efforts of standardization experts."
-      },
-      {
-        "id": 32,
-        "question": "What does the National Institute of Training for Standardization (NITS) established by BIS do?",
+        "id": 31,
+        "question": "Which Indian Standard specifies the requirements for High Strength Deformed (TMT) steel bars used in concrete reinforcement?",
         "user_answer": 0,
         "correct_answer": 0,
         "is_correct": true,
-        "explanation": "NITS (located in Noida) is the apex training institute of BIS providing training in standardization, quality management, and testing."
-      },
-      {
-        "id": 9,
-        "question": "How many alphanumeric characters are there in an authentic HUID code stamped on gold jewellery?",
-        "user_answer": 1,
-        "correct_answer": 1,
-        "is_correct": true,
-        "explanation": "Every HUID code consists of exactly 6 alphanumeric characters stamped alongside the BIS logo and purity grade."
-      },
-      {
-        "id": 29,
-        "question": "What does a 'QCO' issued by the Government of India in conjunction with BIS stand for?",
-        "user_answer": 0,
-        "correct_answer": 0,
-        "is_correct": true,
-        "explanation": "Quality Control Orders (QCOs) make compliance with relevant Indian Standards and BIS certification mandatory for specified products."
-      },
-      {
-        "id": 33,
-        "question": "What penalty can be imposed under the BIS Act 2016 for unauthorized use of the standard ISI mark?",
-        "user_answer": 1,
-        "correct_answer": 1,
-        "is_correct": true,
-        "explanation": "Under the BIS Act 2016, misuse of the Standard Mark can lead to imprisonment up to two years and heavy fines up to 5 lakh rupees."
-      },
-      {
-        "id": 34,
-        "question": "Which laboratory is the central and apex testing laboratory operated directly by BIS?",
-        "user_answer": 0,
-        "correct_answer": 0,
-        "is_correct": true,
-        "explanation": "The Central Laboratory of BIS is located at Sahibabad, Ghaziabad, equipped with state-of-the-art testing facilities."
-      },
-      {
-        "id": 19,
-        "question": "Which Indian Standard specifies the quality parameters for Drinking Water (Potable Water)?",
-        "user_answer": 0,
-        "correct_answer": 0,
-        "is_correct": true,
-        "explanation": "IS 10500 is the Indian Standard for Drinking Water specifications in India."
-      },
-      {
-        "id": 17,
-        "question": "What is the CRS scheme administered by BIS, primarily applied to laptops, mobile phones, and IT equipment?",
-        "user_answer": 0,
-        "correct_answer": 0,
-        "is_correct": true,
-        "explanation": "CRS stands for Compulsory Registration Scheme, managed by BIS for electronics and IT goods notified by MeitY."
-      },
-      {
-        "id": 16,
-        "question": "Under the BIS Act 2016, who serves ex-officio as the President of the Bureau of Indian Standards?",
-        "user_answer": 2,
-        "correct_answer": 2,
-        "is_correct": true,
-        "explanation": "The Union Minister in-charge of Consumer Affairs, Food and Public Distribution is the President of BIS."
-      },
-      {
-        "id": 14,
-        "question": "What is the initiative by BIS to establish student clubs in colleges and schools to promote quality consciousness?",
-        "user_answer": 0,
-        "correct_answer": 0,
-        "is_correct": true,
-        "explanation": "BIS establishes 'Standards Clubs' in educational institutions to nurture quality consciousness and standards literacy among students."
-      },
-      {
-        "id": 11,
-        "question": "Which certification mark is issued by BIS for products that meet quality standards along with specified environmental criteria?",
-        "user_answer": 1,
-        "correct_answer": 1,
-        "is_correct": true,
-        "explanation": "The ECO Mark scheme was instituted by the Government of India and is administered by BIS for environment-friendly products."
-      },
-      {
-        "id": 6,
-        "question": "Which official mobile application has been launched by BIS for consumers to verify ISI mark, Hallmarking, and register complaints?",
-        "user_answer": 0,
-        "correct_answer": 0,
-        "is_correct": true,
-        "explanation": "The 'BIS Care App' allows consumers to verify ISI marks, Hallmarking, CRS registration, and lodge quality complaints."
-      },
-      {
-        "id": 30,
-        "question": "What is the primary objective of the 'Know Your Standards' facility on the BIS portal?",
-        "user_answer": 1,
-        "correct_answer": 1,
-        "is_correct": true,
-        "explanation": "'Know Your Standards' provides free access to read all Indian Standards online for public knowledge and transparency."
-      },
-      {
-        "id": 23,
-        "question": "Which Indian Standard specifies the safety and performance requirements for Two-Wheeler Protective Helmets?",
-        "user_answer": 0,
-        "correct_answer": 0,
-        "is_correct": true,
-        "explanation": "IS 4151 covers protective helmets for riders of two-wheeled motor vehicles in India."
+        "explanation": "IS 1786 specifies requirements for high strength deformed steel bars and wires for concrete reinforcement (TMT bars)."
       }
     ]
+  },
+  "6467aa6a-38a7-4ec0-ae5d-c149d6a2593a": {
+    "id": "6467aa6a-38a7-4ec0-ae5d-c149d6a2593a",
+    "name": "Timer Test User",
+    "phone": "9876543210",
+    "college_id": "TIMER-01",
+    "registered_at": "2026-10-18T23:48:33.125275",
+    "registered_at_formatted": "11:48:33 PM",
+    "status": "In Progress",
+    "question_ids": [
+      3,
+      17,
+      14,
+      29,
+      25,
+      22,
+      31,
+      10,
+      34,
+      7,
+      4,
+      35,
+      23,
+      20,
+      21,
+      18,
+      15,
+      27,
+      13,
+      16,
+      6,
+      2,
+      33,
+      1,
+      12,
+      28,
+      11,
+      26,
+      32,
+      30
+    ],
+    "sanitized_questions": [
+      {
+        "question_index": 1,
+        "id": 3,
+        "question": "Which Act established the Bureau of Indian Standards as the National Standards Body of India?",
+        "options": [
+          "The BIS Act, 1986",
+          "The Consumer Protection Act, 2019",
+          "The Bureau of Indian Standards Act, 2016",
+          "The Standards of Weights and Measures Act"
+        ]
+      },
+      {
+        "question_index": 2,
+        "id": 17,
+        "question": "What is the CRS scheme administered by BIS, primarily applied to laptops, mobile phones, and IT equipment?",
+        "options": [
+          "Compulsory Registration Scheme",
+          "Central Regulatory Standard",
+          "Consumer Reliability System",
+          "Certified Radio Standard"
+        ]
+      },
+      {
+        "question_index": 3,
+        "id": 14,
+        "question": "What is the initiative by BIS to establish student clubs in colleges and schools to promote quality consciousness?",
+        "options": [
+          "Standards Club",
+          "Quality Youth Club",
+          "Manak Mitra Society",
+          "Safety & Standard Forum"
+        ]
+      },
+      {
+        "question_index": 4,
+        "id": 29,
+        "question": "What does a 'QCO' issued by the Government of India in conjunction with BIS stand for?",
+        "options": [
+          "Quality Control Order",
+          "Quarterly Compliance Objective",
+          "Qualified Consumer Organization",
+          "Quantitative Certificate of Origin"
+        ]
+      },
+      {
+        "question_index": 5,
+        "id": 25,
+        "question": "How many Regional Offices does the Bureau of Indian Standards have across India?",
+        "options": [
+          "3",
+          "5",
+          "10",
+          "15"
+        ]
+      },
+      {
+        "question_index": 6,
+        "id": 22,
+        "question": "Which publication by BIS serves as the comprehensive model building code adopted by local bodies across India?",
+        "options": [
+          "National Electrical Code (NEC)",
+          "National Building Code of India (NBC)",
+          "Indian Highway Code (IHC)",
+          "Urban Infrastructure Code (UIC)"
+        ]
+      },
+      {
+        "question_index": 7,
+        "id": 31,
+        "question": "Which Indian Standard specifies the requirements for High Strength Deformed (TMT) steel bars used in concrete reinforcement?",
+        "options": [
+          "IS 1786",
+          "IS 2062",
+          "IS 800",
+          "IS 1239"
+        ]
+      },
+      {
+        "question_index": 8,
+        "id": 10,
+        "question": "Gold jewellery marked with '22K916' indicates what purity percentage of gold?",
+        "options": [
+          "99.9%",
+          "91.6%",
+          "75.0%",
+          "83.3%"
+        ]
+      },
+      {
+        "question_index": 9,
+        "id": 34,
+        "question": "Which laboratory is the central and apex testing laboratory operated directly by BIS?",
+        "options": [
+          "Central Laboratory, Sahibabad (Ghaziabad)",
+          "National Physical Laboratory, Delhi",
+          "Bhabha Atomic Research Centre, Trombay",
+          "Central Drug Research Institute, Lucknow"
+        ]
+      },
+      {
+        "question_index": 10,
+        "id": 7,
+        "question": "What is the standard mark issued by BIS for industrial and consumer goods in India?",
+        "options": [
+          "Agmark",
+          "ISI Mark",
+          "FSSAI Mark",
+          "Silk Mark"
+        ]
+      },
+      {
+        "question_index": 11,
+        "id": 4,
+        "question": "Where is the headquarters of the Bureau of Indian Standards located?",
+        "options": [
+          "Mumbai, Maharashtra",
+          "Manak Bhavan, New Delhi",
+          "Bengaluru, Karnataka",
+          "Kolkata, West Bengal"
+        ]
+      },
+      {
+        "question_index": 12,
+        "id": 35,
+        "question": "What is the initial validity period of a standard Product Certification license granted by BIS?",
+        "options": [
+          "6 months",
+          "1 to 2 years",
+          "10 years",
+          "Lifetime validity"
+        ]
+      },
+      {
+        "question_index": 13,
+        "id": 23,
+        "question": "Which Indian Standard specifies the safety and performance requirements for Two-Wheeler Protective Helmets?",
+        "options": [
+          "IS 4151",
+          "IS 2062",
+          "IS 1786",
+          "IS 302"
+        ]
+      },
+      {
+        "question_index": 14,
+        "id": 20,
+        "question": "What is the Indian Standard code of practice for Plain and Reinforced Concrete (widely studied by Civil Engineers)?",
+        "options": [
+          "IS 800",
+          "IS 456",
+          "IS 1893",
+          "IS 875"
+        ]
+      },
+      {
+        "question_index": 15,
+        "id": 21,
+        "question": "What is the Indian Standard code for Earthquake Resistant Design of Structures?",
+        "options": [
+          "IS 1893",
+          "IS 800",
+          "IS 13920",
+          "IS 4326"
+        ]
+      },
+      {
+        "question_index": 16,
+        "id": 18,
+        "question": "Which Indian Standard specifies the specifications and safety requirements for Packaged Drinking Water?",
+        "options": [
+          "IS 456",
+          "IS 14543",
+          "IS 10500",
+          "IS 1165"
+        ]
+      },
+      {
+        "question_index": 17,
+        "id": 15,
+        "question": "Which Ministry is the administrative ministry governing the Bureau of Indian Standards?",
+        "options": [
+          "Ministry of Commerce and Industry",
+          "Ministry of Science and Technology",
+          "Ministry of Consumer Affairs, Food and Public Distribution",
+          "Ministry of Heavy Industries"
+        ]
+      },
+      {
+        "question_index": 18,
+        "id": 27,
+        "question": "Which international body responsible for global electro-technical standards does BIS represent India in?",
+        "options": [
+          "International Electrotechnical Commission (IEC)",
+          "ITU",
+          "CENELEC",
+          "ANSI"
+        ]
+      },
+      {
+        "question_index": 19,
+        "id": 13,
+        "question": "What is the single online portal of BIS that provides end-to-end digital services for standards formulation and certification?",
+        "options": [
+          "Manakonline",
+          "e-Standard Portal",
+          "BIS Digital Hub",
+          "QualityPortal.gov.in"
+        ]
+      },
+      {
+        "question_index": 20,
+        "id": 16,
+        "question": "Under the BIS Act 2016, who serves ex-officio as the President of the Bureau of Indian Standards?",
+        "options": [
+          "Prime Minister of India",
+          "Cabinet Secretary",
+          "Union Minister of Consumer Affairs, Food and Public Distribution",
+          "Director General of BIS"
+        ]
+      },
+      {
+        "question_index": 21,
+        "id": 6,
+        "question": "Which official mobile application has been launched by BIS for consumers to verify ISI mark, Hallmarking, and register complaints?",
+        "options": [
+          "BIS Care App",
+          "Manak Seva App",
+          "Standard India App",
+          "Consumer Connect App"
+        ]
+      },
+      {
+        "question_index": 22,
+        "id": 2,
+        "question": "BIS was formerly known as which organization established in 1947?",
+        "options": [
+          "Indian Quality Council (IQC)",
+          "Indian Standards Institution (ISI)",
+          "National Quality Bureau (NQB)",
+          "Bharat Standardization Agency (BSA)"
+        ]
+      },
+      {
+        "question_index": 23,
+        "id": 33,
+        "question": "What penalty can be imposed under the BIS Act 2016 for unauthorized use of the standard ISI mark?",
+        "options": [
+          "Only a warning notice",
+          "Imprisonment up to 2 years, fine up to Rs 5 lakh (or both)",
+          "A fine of Rs 500 only",
+          "No legal penalty exists"
+        ]
+      },
+      {
+        "question_index": 24,
+        "id": 1,
+        "question": "What is the full form of BIS?",
+        "options": [
+          "Bureau of Indian Standards",
+          "Board of Indian Standardization",
+          "Bureau of Industrial Safety",
+          "Bharat Institute of Standards"
+        ]
+      },
+      {
+        "question_index": 25,
+        "id": 12,
+        "question": "On which date is 'World Standards Day' celebrated across the globe each year?",
+        "options": [
+          "15 August",
+          "5 June",
+          "14 October",
+          "28 February"
+        ]
+      },
+      {
+        "question_index": 26,
+        "id": 28,
+        "question": "Under BIS regulations, which of the following items is mandatory to have the ISI mark before being sold in India?",
+        "options": [
+          "Packaged Drinking Water & Mineral Water",
+          "Cotton handkerchiefs",
+          "Wooden dining tables",
+          "Ballpoint pens"
+        ]
+      },
+      {
+        "question_index": 27,
+        "id": 11,
+        "question": "Which certification mark is issued by BIS for products that meet quality standards along with specified environmental criteria?",
+        "options": [
+          "Green Seal",
+          "ECO Mark",
+          "BioStandard Mark",
+          "Earth Mark"
+        ]
+      },
+      {
+        "question_index": 28,
+        "id": 26,
+        "question": "BIS is a founder member of which premier international standardization organization?",
+        "options": [
+          "International Organization for Standardization (ISO)",
+          "World Trade Organization (WTO)",
+          "IEEE",
+          "ASTM International"
+        ]
+      },
+      {
+        "question_index": 29,
+        "id": 32,
+        "question": "What does the National Institute of Training for Standardization (NITS) established by BIS do?",
+        "options": [
+          "Trains BIS officers, industry personnel, and international fellows on standards & quality",
+          "Conducts university degree engineering programs",
+          "Manufactures testing instruments",
+          "Issues passports and visas"
+        ]
+      },
+      {
+        "question_index": 30,
+        "id": 30,
+        "question": "What is the primary objective of the 'Know Your Standards' facility on the BIS portal?",
+        "options": [
+          "Selling expensive standard copies to multinational companies",
+          "Allowing citizens, students, and manufacturers to view Indian Standards free of charge",
+          "Providing patent registration for inventors",
+          "Conducting civil service examinations"
+        ]
+      }
+    ],
+    "total_questions": 30,
+    "total_time_seconds": 1200,
+    "start_timestamp": 1792347513.125301,
+    "total_points": 0,
+    "correct_count": 0,
+    "speed_bonus": 0,
+    "time_spent_seconds": 0
   }
 }
